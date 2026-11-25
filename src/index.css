@@ -1,0 +1,10 @@
+/* SortSmart base styles. Most styling lives in App.css. */
+
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+}
