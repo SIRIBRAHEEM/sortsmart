@@ -6,8 +6,10 @@ read it while recording your own screen walkthrough.
 
 ## 0:00 to 0:10, title
 
-"Hi, my name is Ibrahim. This is SortSmart, a waste sorting helper for
-Nigerian households. I built it for the Arbiter Hacks Theme Track."
+"Hello, I am Ibrahim Yahaya from Bida, Niger State, Nigeria, a student at
+the Federal University of Technology Minna. This is SortSmart, a waste
+sorting helper for Nigerian households. I built it for the Arbiter Hacks
+Theme Track."
 
 ## 0:10 to 0:22, look it up
 

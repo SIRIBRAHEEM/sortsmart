@@ -1,10 +1,39 @@
-/* SortSmart base styles. Most styling lives in App.css. */
+@import "tailwindcss";
 
-:root {
-  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+@theme {
+  --font-display: "Archivo Black", "Public Sans", system-ui, sans-serif;
+  --font-sans: "Public Sans", system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --color-paper: #faf9f1;
+  --color-cream: #f3f1e2;
+  --color-forest-950: #0c2b18;
+  --color-forest-900: #14532d;
+  --color-forest-800: #166534;
+  --color-forest-700: #15803d;
+  --color-lime-pop: #a3e635;
+  --color-lime-soft: #ecfccb;
+  --color-ink: #1c2420;
+
+  --shadow-sticker: 6px 6px 0 0 #14532d;
+  --shadow-sticker-sm: 4px 4px 0 0 #14532d;
+  --shadow-sticker-lime: 6px 6px 0 0 #65a30d;
+}
+
+html {
   color-scheme: light;
 }
 
 body {
   margin: 0;
+  background-color: var(--color-paper);
+  background-image: radial-gradient(#d9e6c8 1.6px, transparent 1.6px);
+  background-size: 22px 22px;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-lime-pop);
+  color: var(--color-forest-950);
 }

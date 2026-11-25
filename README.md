@@ -57,6 +57,13 @@ npm run preview
 ## How I built it
 
 - React with Vite, plain JavaScript. No backend and no database server.
+- The interface is built with Tailwind CSS and small shadcn-style components
+  written for this project (buttons, cards, badges, inputs, progress bars).
+  The design is a bold eco-poster look: lime and forest green on off-white,
+  chunky Archivo Black headings with Public Sans body text, both self-hosted
+  so the app works offline. Each waste category has its own bin colour:
+  green for recyclable, amber for organic, red for hazardous, grey for
+  general waste.
 - The item database is a JavaScript file (`src/data/items.js`) with the
   category, disposal instructions, and a short reason for each item.
   Categories follow what is realistic in Nigeria: "recyclable" means a
@@ -68,9 +75,11 @@ npm run preview
 ## Screenshots
 
 ![Look it up](docs/lookup.png)
+![Item detail](docs/detail.png)
 ![Sorting quiz](docs/quiz.png)
 ![My waste log](docs/log.png)
 ![Guide](docs/guide.png)
+![Mobile view](docs/mobile.png)
 
 ## The waste problem I targeted (Theme Track)
 
